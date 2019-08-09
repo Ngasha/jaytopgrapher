@@ -79,10 +79,10 @@ body{
   
   .overlay-content {
     position: relative;
-    top: 25%;
+    top: 18%;
     width: 100%;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 10px;
   }
   span{
       display: none;
@@ -96,12 +96,12 @@ body{
       font-weight: 800;
   }
   .overlay a {
-    padding: 8px;
+	margin-bottom: 10px;
     text-decoration: none;
     font-size: 28px;
     color: #FFF;
     display: block;
-    transition: 0.3s;
+    transition: all 500ms;
   }
   
   .overlay a:hover, .overlay a:focus {
@@ -227,5 +227,8 @@ img.img-fluidi{
 		padding: 10px;
 		cursor: pointer;
 	}
-
+	.ovarlay a{
+		padding-top: 0px !important
+			;
+	}
 }
