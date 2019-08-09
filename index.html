@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Jay portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">	
+ <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Courgette&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!------------------------------------------------
+--------------------jay banner area-------------->
+	 <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <ul>
+				<li><a href="#">JAY</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Services</a>
+					<div class="sub-menu-1">
+						<ul>
+							<li><a href="#">Potrait</a></li>
+							<li><a href="#">Weddings</a></li>
+							<li><a href="#">Events</a></li>
+							<li><a href="#">Fashion</a></li>
+						</ul>
+					</div>
+				</li>
+				<li><a href="#">Pricing</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+          </div>
+        </div>
+ <script>
+        function openNav() {
+          document.getElementById("myNav").style.width = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.width = "0%";
+        }
+	</script>
+	
+   <span onclick="openNav()"><h3 class="title">JAY</h3>&#9776;</span>
+<div class="menu-bar">
+	<ul>
+		<li><a href="#">JAY</a></li>
+		<li><a href="#">About</a></li>
+		<li><a href="#">Services</a>
+			<div class="sub-menu-1">
+				<ul>
+					<li><a href="#">Potrait</a></li>
+					<li><a href="#">Weddings</a></li>
+					<li><a href="#">Events</a></li>
+					<li><a href="#">Fashion</a></li>
+				</ul>
+			</div>
+		</li>
+		<li><a href="#">Pricing</a></li>
+		<li><a href="#">Contact</a></li>
+	</ul>
+</div>
+<!--
+<section class="wrapper">
+</section>
+-->
+<!--
+		<div class="left-infor">
+			<h2 class="promo-title p-intro">JAY TOPGRAPHER</h2>
+				<p class="p-intro">Hello, Welcome to my photography exhibits. I shoot emotions, freeze time moments and views. Lets interact and work on your portraits.</p>
+		</div>
+		<div class="right-infor">
+			<img src="img/james.jpeg" alt="james">
+		</div>
+   </div>
+</section>
+-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.menu-icon').click(function(){
+				$('nav-bar').toggleClass('visible');
+			});
+		});
+	</script>
+</body>
+</html>
