@@ -240,6 +240,19 @@ img.jim-photo{
 		margin: auto;
 	}
 	.wrapper{
+	height: 89vh;
+	background-image: linear-gradient(to top right, rgb(7, 26, 216) 2%, rgba(23, 41, 21, 0.3) 46%), linear-gradient(to left, rgba(11, 0, 120, 0.31) 7%, rgba(170, 10, 140, 0.43) 50%), url(img/fre.jpeg); 
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: right;
+	
+}
+	.wrapper{
 		display: flex;
 		width: 100%;
 		height: 90vh;
