@@ -66,6 +66,7 @@ body{
  .overlay {
     display: none;
     height: 100%;
+	 overflow: hidden;
     width: 0;
     position: fixed;
     z-index: 1;
