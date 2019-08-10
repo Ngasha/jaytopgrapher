@@ -132,7 +132,7 @@ body{
 	
 }
 .container .row p{
-	font-size: 30px;
+	font-size: 22px;
 }
 .jay-intro{
 	margin: auto;
@@ -150,9 +150,46 @@ img.jim-photo{
 	width: 368px;
 }
 
+
 /*-------------------about page-------------*/
 .about{
-	height: 80vh;
+	height: 45vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: #111;
+}
+
+.about .container p{
+	color: #111;
+	font-size: 25px;
+	padding: 4px 20px;
+}
+ h3.title {
+	color:#111;
+}
+.title::before{
+	content: '';
+	background: #276cad;
+	height: 5px;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	transform: translateY(63px);
+}
+h3.title::after{
+	content: '';
+	background: #276cad;
+	height: 10px;
+	width: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(22px);
 }
 /*------------media queries-----------
 -----------------------------------------*/
@@ -177,7 +214,7 @@ img.jim-photo{
 	  .navbar{
 		display: none;
 	  }
-	  h3.title {
+	  h3.title-jay {
 		font-size: 22px;
 		float: left;
 		margin: auto;
@@ -259,9 +296,6 @@ img.jim-photo{
 		flex-wrap: wrap;
 	}
 	.wrapper .jim-photo{
-		height: 250px;
-		width: 200px;
-		border: 1px solid blue;
-		border-radius: 50%;
+		display: none;
 	}
 }
