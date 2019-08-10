@@ -137,6 +137,11 @@ body{
 .jay-intro{
 	margin: auto;
 }
+.jay-intro p{
+	color: #FFF !important;
+	font-family: 'Satisfy', cursive;
+	font-size: 26px !important;
+}
 .container .row{
 	display: flex;
 	margin: auto;
