@@ -191,6 +191,58 @@ h3.title::after{
 	display: block;
 	transform: translateY(22px);
 }
+
+/*-----------------------services by jay--------------*/
+.services{
+	padding: 80px 0;
+	color: #111;
+	background-color: beige;
+}
+
+.service-img{
+	width: 100px;
+	margin-top: 20px;
+}
+
+.container .row p{
+	color: #111;
+}
+h4{
+	color: #111;
+}
+.service-img .event-1{
+	background: #ec9736;
+}
+h2.title::before{
+	content: '';
+	background: lawngreen;
+	height: 5px;
+	width: 150px;
+	margin-right: auto;
+	margin-left: auto;
+	display: block;
+	transform: translateY(63px);
+}
+h2.title::after{
+	content: '';
+	background: lawngreen;
+	height: 10px;
+	width: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 40px;
+	display: block;
+	transform: translateY(18px);
+}
+
+
+
+
+
+
+
+
+
 /*------------media queries-----------
 -----------------------------------------*/
 @media only screen and (max-width:767px) and (min-width:100px){
