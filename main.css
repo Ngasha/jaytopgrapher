@@ -151,8 +151,10 @@ body{
 	text-align: center;
 }
 img.jim-photo{
-	height: 496px;
+	height: 396px;
 	width: 432px;
+	border: 1px solid #aca;
+	border-radius: 50%;
 }
 
 
@@ -271,7 +273,6 @@ h2.title::after{
 .column-1 ul a li.black{
 	background: #001;
 	text-decoration: none;
-	text-decoration-line: none;
 	cursor: pointer;
 	font-size: 20px;
 	font-weight: 700;
