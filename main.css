@@ -251,25 +251,28 @@ h2.title::after{
 	border-radius: 4px;
 	box-shadow: 2px 0 4px blue;
 }
-li{
+.column-1 ul li{
 	padding: 18px;
 	color: #111;
 	background: #fff;
 	list-style: none;
 	border-bottom: 1px dotted grey;
 }
-li.gray{
+.column-1 ul li.gray{
 	background: #ede;
 	font-size: 20px;
 }
-li.header-1{
+.column-1 ul li.header-1{
 	background: blueviolet;
 	color: #fff;
 	font-size: 24px;
 	font-weight: 600;
 }
-li.black{
+.column-1 ul a li.black{
 	background: #001;
+	text-decoration: none;
+	text-decoration-line: none;
+	cursor: pointer;
 	font-size: 20px;
 	font-weight: 700;
 	font-family: monospace;
