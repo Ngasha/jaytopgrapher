@@ -26,6 +26,7 @@ body{
 .menu-bar ul li a{
 	color: #FFF;
 	text-decoration: none;
+	font-size: 20px;
 }
 .menu-bar ul li:hover{
 	color: #3ef153;
@@ -151,8 +152,8 @@ body{
 	text-align: center;
 }
 img.jim-photo{
-	height: 396px;
-	width: 396px;
+	height: 346px;
+	width: 346px;
 	border: 1px solid #aca;
 	border-radius: 50%;
 }
