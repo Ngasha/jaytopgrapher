@@ -151,8 +151,8 @@ body{
 	text-align: center;
 }
 img.jim-photo{
-	height: 552px;
-	width: 438px;
+	height: 496px;
+	width: 432px;
 }
 
 
@@ -277,6 +277,7 @@ h2.title::after{
 	font-weight: 700;
 	font-family: monospace;
 	color: lawngreen;
+	border-bottom: none;
 }
 
 /*------------media queries-----------
